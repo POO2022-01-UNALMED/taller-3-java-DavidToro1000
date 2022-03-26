@@ -19,6 +19,12 @@ public class TV {
     public Marca getMarca() {
     	return marca;
     }
+    public void setNumTV(int num) {
+    	numTV=num;
+    }
+    public int getNumTV() {
+    	return TV.numTV;
+    }
     public void setControl(Control control) {
     	this.control=control;
     }

@@ -59,7 +59,7 @@ public class TV {
     	return estado;
     }
     public void canalUp() {
-    	if (canal==120) {
+    	if (canal>=120) {
     		return;
     	}
     	else {
@@ -72,7 +72,7 @@ public class TV {
     	}
     }
     public void canalDown() {
-    	if (canal==1) {
+    	if (canal<=1) {
     		return;
     	}
     	else {
